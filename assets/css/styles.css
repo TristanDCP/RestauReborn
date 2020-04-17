@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
@@ -13,16 +17,28 @@ body{
     background-color: #912323;
 }
 
+/* carousel */
+
+
+.carousel-inner img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.allcarousel {
+    max-width: 100%;
+}
+
+
+/* carousel */
 .footerbloc {
     background-image: url("../img/noustrouver.jpg");
     height: 50rem;
 }
 
-.container-fluid {
+#presentation .container-fluid {
     
-    width: 100%;
-    max-height: 325px;
-    height: auto;
+    min-height: 100vh;
     background-image: url("../img/backgrounds/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -30,15 +46,121 @@ body{
     background-size: cover;
 }
 
+.pres {
+    width:80%;
+    border-radius: 1rem;
+    margin: 2rem 0 2rem 0;
+    background-color:RGBa(255, 255, 255, 0.6)
+}
+
+/*========= SECTION TITRES ==========*/
+.redbox {
+    background-color: #912323;
+    font-size: 3rem;
+}
+
+/*========= SECTION ENTREE ==========*/
+#entrees .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/entree.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION PLATS ==========*/
+#mainmeal .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/plats.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION PATES ==========*/
+#pasta .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/Pates.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION VIANDES ==========*/
+#meat .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/viandes.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION FISH ==========*/
+#fish .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/poissons.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION DESSERT ==========*/
+#dessert .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/dessert.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION APERITIF ==========*/
+#aperitif .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/apperitif.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION VINS ==========*/
+#wine .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/vins.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    font-size: 0.6rem;
+}
+
+/*========= SECTION SOFTS ==========*/
+#softs .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../img/boissonschaude.jpg");
 /* #googlemap {
     height: 20rem;
     width: 30rem;  
 } */
 
-#googlemaptitle {
-    border-bottom: 0.3em solid black;
-    border-radius: 0.5em;
-}
 
 .copyrighfooter {
     background-color: #912323;
@@ -65,15 +187,22 @@ body{
 #entrees .container-fluid {
 
     min-height: 100vh;
+<<<<<<< HEAD
     background-image: url("/assets/img/entree.jpg");
+=======
+    background-image: url("..../img/entree.jpg");
+>>>>>>> ad4291c0cccd63b39ad76149ec0f763bee5c83ed
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+<<<<<<< HEAD
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
   }
+=======
+>>>>>>> ad4291c0cccd63b39ad76149ec0f763bee5c83ed
