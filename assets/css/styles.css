@@ -1,22 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
 
-.container-fluid {
+#presentation .container-fluid {
     
-    width: 100%;
-    height: 100vh;
-    background-image: url("/assets/img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
+    min-height: 100vh;
+    background-image: url("/assets/img/backgrounds/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-
 
 .pres {
     width:80%;
     border-radius: 1rem;
+    margin: 2rem 0 2rem 0;
     background-color:RGBa(255, 255, 255, 0.6)
+}
+
+/*========= SECTION TITRES ==========*/
+.redbox {
+    background-color: #912323;
+    font-size: 3rem;
+}
+
+/*========= SECTION ENTREE ==========*/
+#entrees .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/entree.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION PLATS ==========*/
+#mainmeal .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/plats.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION PATES ==========*/
+#pasta .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/Pates.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION VIANDES ==========*/
+#meat .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/viandes.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION FISH ==========*/
+#fish .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/poissons.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION DESSERT ==========*/
+#dessert .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/dessert.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION APERITIF ==========*/
+#aperitif .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/apperitif.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= SECTION VINS ==========*/
+#wine .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/vins.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    font-size: 0.6rem;
+}
+
+/*========= SECTION SOFTS ==========*/
+#softs .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("/assets/img/boissonschaude.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
