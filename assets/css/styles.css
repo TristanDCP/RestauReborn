@@ -1,0 +1,45 @@
+body{
+    font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
+}
+/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.footerschedule {
+    list-style-type: none;
+    border-bottom: 0.3em solid black;
+    border-radius: 0.5em;
+}
+
+.footerbloc {
+    background-image: url("../img/noustrouver.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#googlemap {
+    height: 20em;
+    width: 30em;  
+}
+
+#googlemaptitle {
+    border-bottom: 0.3em solid black;
+    border-radius: 0.5em;
+}
+
+.copyrighfooter {
+    background-color: #912323;
+    width: 100%;
+    height: 8em;
+}
+
+#copyright {
+    color: white;
+}
+
+#mentionlegales{
+    color: white; 
+}
+
+/* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
