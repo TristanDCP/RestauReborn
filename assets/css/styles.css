@@ -2,16 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
-/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-.footerschedule {
-    list-style-type: none;
-    border-bottom: 0.3em solid black;
-    border-radius: 0.5em;
-}
-
 
 .bg-crimson {
     background-color: #912323;
@@ -25,6 +18,7 @@ body{
     max-width: 100%;
     height: auto;
 }
+
 .allcarousel {
     max-width: 100%;
 }
@@ -37,7 +31,7 @@ body{
 }
 
 #presentation .container-fluid {
-    
+
     min-height: 100vh;
     background-image: url("../img/backgrounds/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
     background-attachment: fixed;
@@ -47,10 +41,10 @@ body{
 }
 
 .pres {
-    width:80%;
+    width: 80%;
     border-radius: 1rem;
     margin: 2rem 0 2rem 0;
-    background-color:RGBa(255, 255, 255, 0.6)
+    background-color: RGBa(255, 255, 255, 0.6)
 }
 
 /*========= SECTION TITRES ==========*/
@@ -156,32 +150,57 @@ body{
 
     min-height: 100vh;
     background-image: url("../img/boissonschaude.jpg");
-/* #googlemap {
-    height: 20rem;
-    width: 30rem;  
-} */
-
-
-.copyrighfooter {
-    background-color: #912323;
-    width: auto;
-    height: 8rem;
 }
 
-#copyright {
+/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#footer {
+
+    min-height: 100vh;
+    background-image: url("../img/noustrouver.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#copyrightlegalnotice {
+    background-color: #912323;
+    font-size: 1rem;
+}
+
+.legalnotice{
+    text-decoration: none;
     color: white;
 }
 
-#mentionlegales{
-    color: white; 
+.legalnotice:visited {
+    color: white;
+}
+
+.legalnotice:hover {
+    color: white;
 }
 
 /* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-    
-.pres{
-    width:80%;
+
+.pres {
+    width: 80%;
     border-radius: 1rem;
-    background-color:RGBa(255, 255, 255, 0.6);
+    background-color: RGBa(255, 255, 255, 0.6);
 }
 
 #entrees .container-fluid {
