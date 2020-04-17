@@ -5,6 +5,22 @@ html {
 body{
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
+/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.footerschedule {
+    list-style-type: none;
+    border-bottom: 0.3em solid black;
+    border-radius: 0.5em;
+}
+
+
+.bg-crimson {
+    background-color: #912323;
+}
+
+.footerbloc {
+    background-image: url("../img/noustrouver.jpg");
+    height: 50rem;
+}
 
 #presentation .container-fluid {
     
@@ -126,6 +142,42 @@ body{
 
     min-height: 100vh;
     background-image: url("/assets/img/boissonschaude.jpg");
+/* #googlemap {
+    height: 20rem;
+    width: 30rem;  
+} */
+
+#googlemaptitle {
+    border-bottom: 0.3em solid black;
+    border-radius: 0.5em;
+}
+
+.copyrighfooter {
+    background-color: #912323;
+    width: auto;
+    height: 8rem;
+}
+
+#copyright {
+    color: white;
+}
+
+#mentionlegales{
+    color: white; 
+}
+
+/* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    
+.pres{
+    width:80%;
+    border-radius: 1rem;
+    background-color:RGBa(255, 255, 255, 0.6);
+}
+
+#entrees .container-fluid {
+
+    min-height: 100vh;
+    background-image: url("../assets/img/entree.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
