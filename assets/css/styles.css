@@ -2,10 +2,25 @@ body{
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
 
-navbar a{
-    text-transform: uppercase;
-}
 
 .bg-crimson {
     background-color: #912323;
+}
+
+.container-fluid {
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/backgrounds/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pres {
+    width:80%;
+    border-radius: 1rem;
+    background-color:RGBa(255, 255, 255, 0.6)
 }
