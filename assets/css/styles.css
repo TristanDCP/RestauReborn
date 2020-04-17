@@ -1,0 +1,15 @@
+body{
+    font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
+}
+.bg-crimson {
+    background-color: #912323;
+}
+
+/* carousel */
+.carousel-inner img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* carousel */
