@@ -187,22 +187,9 @@ body{
 #entrees .container-fluid {
 
     min-height: 100vh;
-<<<<<<< HEAD
-    background-image: url("/assets/img/entree.jpg");
-=======
     background-image: url("..../img/entree.jpg");
->>>>>>> ad4291c0cccd63b39ad76149ec0f763bee5c83ed
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-=======
->>>>>>> ad4291c0cccd63b39ad76149ec0f763bee5c83ed
