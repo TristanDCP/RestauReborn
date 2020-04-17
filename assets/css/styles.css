@@ -1,3 +1,15 @@
 body{
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
+
+navbar a{
+    text-transform: uppercase;
+}
+
+.bg-crimson {
+    background-color: #912323;
+}
+
+nav{
+    display: block;
+}
