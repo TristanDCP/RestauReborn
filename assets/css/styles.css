@@ -25,10 +25,6 @@ body {
 
 
 /* carousel */
-.footerbloc {
-    background-image: url("../img/noustrouver.jpg");
-    height: 50rem;
-}
 
 #presentation .container-fluid {
 
@@ -44,7 +40,7 @@ body {
     width: 80%;
     border-radius: 1rem;
     margin: 2rem 0 2rem 0;
-    background-color: RGBa(255, 255, 255, 0.6)
+    background-color: RGBa(255, 255, 255, 0.8)
 }
 
 /*========= SECTION TITRES ==========*/
@@ -164,17 +160,21 @@ body {
 }
 
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 20%;
+    position: relative;
+    height: 0;
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#googlemap {
+    border-radius: 0rem 0rem 1rem 1rem;
 }
 
 #copyrightlegalnotice {
@@ -205,7 +205,6 @@ body {
 .pres {
     width: 80%;
     border-radius: 1rem;
-    background-color: RGBa(255, 255, 255, 0.6);
 }
 
 #entrees .container-fluid {
@@ -216,4 +215,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#separate {
+    width: 15rem;
 }
