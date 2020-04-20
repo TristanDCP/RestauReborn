@@ -2,16 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
 }
-/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-.footerschedule {
-    list-style-type: none;
-    border-bottom: 0.3em solid black;
-    border-radius: 0.5em;
-}
-
 
 .bg-crimson {
     background-color: #912323;
@@ -25,19 +18,16 @@ body{
     max-width: 100%;
     height: auto;
 }
+
 .allcarousel {
     max-width: 100%;
 }
 
 
 /* carousel */
-.footerbloc {
-    background-image: url("../img/noustrouver.jpg");
-    height: 50rem;
-}
 
 #presentation .container-fluid {
-    
+
     min-height: 100vh;
     background-image: url("../img/backgrounds/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg");
     background-attachment: fixed;
@@ -47,10 +37,10 @@ body{
 }
 
 .pres {
-    width:80%;
+    width: 80%;
     border-radius: 1rem;
     margin: 2rem 0 2rem 0;
-    background-color:RGBa(255, 255, 255, 0.6)
+    background-color: RGBa(255, 255, 255, 0.8)
 }
 
 /*========= SECTION TITRES ==========*/
@@ -60,10 +50,10 @@ body{
 }
 
 /*========= SECTION ENTREE ==========*/
-#entrees .container-fluid {
+#starters .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/entree.jpg");
+    background-image: url("../img/backgrounds/entree.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +64,7 @@ body{
 #mainmeal .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/plats.jpg");
+    background-image: url("../img/backgrounds/plats.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +75,7 @@ body{
 #pasta .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/Pates.jpg");
+    background-image: url("../img/backgrounds/Pates.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +86,7 @@ body{
 #meat .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/viandes.jpg");
+    background-image: url("../img/backgrounds/viandes.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +97,7 @@ body{
 #fish .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/poissons.jpg");
+    background-image: url("../img/backgrounds/poissons.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +108,7 @@ body{
 #dessert .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/dessert.jpg");
+    background-image: url("../img/backgrounds/dessert.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +119,7 @@ body{
 #aperitif .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/apperitif.jpg");
+    background-image: url("../img/backgrounds/apperitif.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +130,7 @@ body{
 #wine .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/vins.jpg");
+    background-image: url("../img/backgrounds/vins.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,33 +145,82 @@ body{
 #softs .container-fluid {
 
     min-height: 100vh;
-    background-image: url("../img/boissonschaude.jpg");
-/* #googlemap {
-    height: 20rem;
-    width: 30rem;  
-} */
-
-
-.copyrighfooter {
-    background-color: #912323;
-    width: auto;
-    height: 8rem;
+    background-image: url("../img/backgrounds/soft.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#copyright {
+/*========= SECTION HOT DRINKS ==========*/
+
+#hotdrinks {
+    min-height: 100vh;
+    background-image: url("../img/backgrounds/boissonschaude.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ////////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#footer {
+
+    min-height: 100vh;
+    background-image: url("../img/noustrouver.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 20%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#googlemap {
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+#copyrightlegalnotice {
+    background-color: #912323;
+    font-size: 1rem;
+}
+
+.legalnotice {
+    text-decoration: none;
     color: white;
 }
 
-#mentionlegales{
-    color: white; 
+.legalnotice:visited {
+    color: white;
+}
+
+.legalnotice:hover {
+    color: white;
+}
+
+#devname {
+    background-color: #912323;
+    font-size: 1rem;
 }
 
 /* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-    
-.pres{
-    width:80%;
+
+.pres {
+    width: 80%;
     border-radius: 1rem;
-    background-color:RGBa(255, 255, 255, 0.6);
 }
 
 #entrees .container-fluid {
@@ -192,4 +231,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#separate {
+    width: 15rem;
 }
