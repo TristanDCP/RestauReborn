@@ -141,7 +141,7 @@ body{
 #softs .container-fluid {
 
     min-height: 100vh;
-    background-image: url("/assets/img/boissonschaude.jpg");
+    background-image: url("assets/img/boissonschaude.jpg");
 /* #googlemap {
     height: 20rem;
     width: 30rem;  
