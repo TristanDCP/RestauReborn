@@ -215,22 +215,19 @@ body {
     background-color: #912323;
     font-size: 1rem;
 }
+@media screen and (max-width: 650px) 
+{
+    #devname 
+    {
+        font-size: 0.55rem;
+    }
+ }
 
 /* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .pres {
     width: 80%;
     border-radius: 1rem;
-}
-
-#entrees .container-fluid {
-
-    min-height: 100vh;
-    background-image: url("..../img/entree.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #separate {
