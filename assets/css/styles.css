@@ -236,3 +236,19 @@ body {
 #separate {
     width: 15rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 415px) {
+   .redbox{
+    background-color: #912323;
+    font-size: 2rem;
+   }
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 180px; /* navbar height */
+    margin: -180px 0 0;
+}
