@@ -251,6 +251,8 @@ body {
     }
 }
 
+
+
 :target:before {
     content: "";
     display: block;
@@ -258,3 +260,9 @@ body {
     /* navbar height */
     margin: -180px 0 0;
 }
+
+.my_img{
+    height:300px; /* give your required height */
+    background:url(../img/backgrounds/dessert.jpg);
+    background-size:cover;
+  }
