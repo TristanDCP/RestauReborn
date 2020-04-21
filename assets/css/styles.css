@@ -167,7 +167,7 @@ body {
 #footer {
 
     min-height: 100vh;
-    background-image: url("../img/noustrouver.jpg");
+    background-image: url("../img/backgrounds/noustrouver.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ body {
 
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 20%;
+    padding-bottom: 35%;
     position: relative;
     height: 0;
 }
@@ -223,6 +223,14 @@ body {
     }
  }
 
+@media screen and (max-width: 650px) 
+{
+    #devname 
+    {
+        font-size: 0.55rem;
+    }
+ }
+
 /* ////////////////////////////FIN FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .pres {
@@ -237,15 +245,16 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 415px) {
-   .redbox{
-    background-color: #912323;
-    font-size: 2rem;
-   }
+    .redbox {
+        background-color: #912323;
+        font-size: 2rem;
+    }
 }
 
 :target:before {
     content: "";
     display: block;
-    height: 180px; /* navbar height */
+    height: 180px;
+    /* navbar height */
     margin: -180px 0 0;
 }
