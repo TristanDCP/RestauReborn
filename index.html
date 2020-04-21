@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="shortcut icon" type="image/png" href="assets/img/fork.png">
   <title>Mie-Grill</title>
 </head>
 
 <body>
-  <section>
+  <section id="pagetop">
     <div class="fixed-top">
       <nav class="navbar navbar-expand-lg  navbar-light bg-crimson justify-content-center">
-        <a class="navbar-brand text-white" href="#">Mie-Grill</a>
-        <div class="fixed-top text-white ml-2 mt-2 reponsive-phone-size">
-          <span>Téléphone :</span>
-          <p>06.99.28.69.58</p>
+        <a class="navbar-brand text-white" href="#pagetop">Mie-Grill</a>
+        <div class=" button content fixed-top text-white ml-2 mt-2 reponsive-phone-size">
+          <button type="button" class="btn-sm btn-light">06 99 28 69 58</button>
         </div>
 
       </nav>
@@ -53,10 +53,8 @@
               </li>
               <!-- BOISSONS -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Les boissons
-                </a>
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Les boissons</a>
                 <div class="dropdown-menu bg-crimson" aria-labelledby="navbarDropdownMenuLink" data-toggle="collapse"
                   data-target=".navbar-collapse">
                   <a class="dropdown-item text-white" href="#aperitif">Apéritifs</a>
@@ -73,6 +71,7 @@
           </div>
         </div>
       </nav>
+    </div>
   </section>
   <!-- PRESENTATION -->
 
@@ -80,23 +79,17 @@
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
         <p class="p-3"><span class="h1">Bienvenue au Mie-Grill</span>
-          <br><br>Dans un cadre chaleureux autour de la grillade, vous allez apprécier vous installer à nos
-          tables, avec
-          un
-          personnel à l’écoute de la clientèle. Un cocktail et une assiette à partager vous seront servis dès
-          votre
-          arrivée. En vous souhaitant un bon appétit!</p>
+          <br><br><span class="content">Dans un cadre chaleureux autour de la grillade, vous allez apprécier vous
+            installer à nos tables, avec un personnel à l’écoute de la clientèle. Un cocktail et une assiette à partager
+            vous seront servis dès votre arrivée. En vous souhaitant un bon appétit !</span></p>
       </div>
     </div>
   </section>
 
-
-
-
   <!-- NOTRE EQUIPE CAROUSEL -->
   <section id="carousel" class="container bg-crimson allcarousel">
     <div class="row justify-content-center">
-      <div class="col-sm col-lg-6 h1 text-white text-center mb-3">- Notre équipe -</div>
+      <div class="col-sm col-lg-6 h1 text-white text-center mb-3 redbox">- Notre équipe -</div>
     </div>
 
     <div class="container">
@@ -109,55 +102,55 @@
                   alt="photo philippe etchebest">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/waiters/darroze.png" class="d-block v-100" title="photo hélène Darroze" alt="photo hélène Darroze">
+                <img src="assets/img/waiters/darroze.png" class="d-block v-100" title="photo hélène Darroze"
+                  alt="photo hélène Darroze">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/waiters/sarran.png" class="d-block v-100" title="photo michel Sarran" alt="photo michel Sarran">
+                <img src="assets/img/waiters/sarran.png" class="d-block v-100" title="photo michel Sarran"
+                  alt="photo michel Sarran">
               </div>
               <div class="carousel-item">
                 <img src="assets/img/waiters/delacroix.png" class="d-block v-100" title="photo camille delcroix"
                   alt="photo camille delcroix">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/waiters/JP.png" class="d-block v-100" title="photo jean-Pierre Coffe" alt="photo jean-Pierre Coffe">
+                <img src="assets/img/waiters/JP.png" class="d-block v-100" title="photo jean-Pierre Coffe"
+                  alt="photo jean-Pierre Coffe">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/waiters/aurelien.png" class="d-block v-100" title="photo aurelien" alt="photo aurelien">
+                <img src="assets/img/waiters/aurelien.png" class="d-block v-100" title="photo aurelien"
+                  alt="photo aurelien">
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
   </section>
 
   <!-- ENTREES -->
   <div class="redbox text-center text-white">~ Entrées ~</div>
-
   <section id="starters">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
-        <p class="m-4"><span class="h4">Salade de chèvre chaud</span><br>Fromage de chèvre sur pains à l’ail gratiné à
-          la mozzarella fraîche, tomates fraîches, basilic et salade verte.</p>
+        <p class="mt-4"><span class="h4">Salade de chèvre chaud</span><br><span class="content">Fromage de chèvre sur
+            pains à l’ail gratiné à la mozzarella fraîche, tomates fraîches, basilic et salade verte.</span></p>
         <p class="text-align-center h5"><b>6.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">Salade Caesar</span><br> Filets de poulet rôtis, croûtons de pains à l’ail, copeaux de
-          Parmesan, sauce caesar, tomates fraîches et salade verte.</p>
+        <p><span class="h4">Salade Caesar</span><br><span class="content">Filets de poulet rôtis, croûtons de pains à
+            l’ail, copeaux de Parmesan, sauce caesar, tomates fraîches et salade verte.</span></p>
         <p class="text-align-center h5"><b>7.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">Assiette de charcuterie</span><br> Jambon de parme, coppa, mortadelle, chorizo, bresaola.
-        </p>
+        <p><span class="h4">Assiette de charcuterie</span><br><span class="content">Jambon de parme, coppa, mortadelle,
+            chorizo, bresaola.</span></p>
         <p class="text-align-center h5"><b>9.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">Assiette de crudités</span><br> Carottes râpées, céleri rémoulade, tomates, concombre, maïs
-          et salade verte.</p>
+        <p><span class="h4">Assiette de crudités</span><br><span class="content">Carottes râpées, céleri rémoulade,
+            tomates, concombre, maïs et salade verte.</span></p>
         <p class="text-align-center h5"><b>6.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h4">Cassolette de fruits de mer</span><br> gratin de fromage, crevettes, noix de St.
-          Jacques,
-          moules, poireaux.</p>
+        <p class="m-4"><span class="h4">Cassolette de fruits de mer</span><br><span class="content">gratin de fromage,
+            crevettes, noix de St.Jacques, moules, poireaux.</span></p>
         <p class="text-align-center h5"><b>7.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
       </div>
@@ -167,7 +160,6 @@
 
   <!-- PLATS -->
   <div class="redbox text-center text-white">~ Plats ~</div>
-
   <section id="mainmeal">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
@@ -192,27 +184,27 @@
 
   <!-- PATES -->
   <div class="redbox text-center text-white">~ Pates ~</div>
-
   <section id="pasta">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
-        <p class="m-4"><span class="h4">Carbonara</span><br>Crème fraiche, Lardons fumés, Oignons, Fromage râpé
-          italien.
-        </p>
+        <p class="m-4"><span class="h4">Carbonara</span><br><span class="content">Crème fraiche, Lardons fumés, Oignons,
+            Fromage râpé italien.</span></p>
         <p class="text-align-center h5"><b>13.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">Bolognaise</span><br>Bœuf, carottes, tomates, oignons, basilic.</p>
+        <p><span class="h4">Bolognaise</span><br><span class="content">Bœuf, carottes, tomates, oignons, basilic.</span>
+        </p>
         <p class="text-align-center h5"><b>13.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">4 fromages</span><br>Crème fraiche, gorgonzola, parmesan, emmental, roquefort.</p>
+        <p><span class="h4">4 fromages</span><br><span class="content">Crème fraiche, gorgonzola, parmesan, emmental,
+            roquefort.</span></p>
         <p class="text-align-center h5"><b>12.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p><span class="h4">Indy</span><br>Crème fraiche, poulet, curry, poivrons rouges, lait de coco.</p>
+        <p><span class="h4">Indy</span><br><span class="content">Crème fraiche, poulet, curry, poivrons rouges, lait de
+            coco.</span></p>
         <p class="text-align-center h5"><b>13.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h4">Salmone</span><br>Saumon atlantique, crème fraiche, ciboulette, zeste de
-          citron.
-        </p>
+        <p class="m-4"><span class="h4">Salmone</span><br><span class="content">Saumon atlantique, crème fraiche,
+            ciboulette, zeste de citron.</span></p>
         <p class="text-align-center h5"><b>14.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
       </div>
@@ -222,27 +214,27 @@
 
   <!-- VIANDES -->
   <div class="redbox text-center text-white">~ Viandes ~</div>
-
   <section id="meat">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
-        <p class="m-4"><span class="h4">Bavette black angus maturée</span><br>Origine Irlande/Ecosse(250g).</p>
+        <p class="m-4"><span class="h4">Bavette black angus maturée</span><br><span class="content">Origine
+            Irlande/Ecosse(250g).</span></p>
         <p class="text-align-center h5"><b>18.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-3"><span class="h4">Tartare traditionnel</span><br>Echalotte, cornichon, capre, persil.</p>
+        <p class="m-3"><span class="h4">Tartare traditionnel</span><br><span class="content">Echalotte, cornichon,
+            capre, persil.</span></p>
         <p class="text-align-center h5"><b>14.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2"><span class="h4">Jaret de porc à la Duchesse Anne</span><br>Origine
-          France/bretagne(500g).</p>
+        <p class="m-2"><span class="h4">Jaret de porc à la Duchesse Anne</span><br><span class="content">Origine
+            France/bretagne(500g).</span></p>
         <p class="text-align-center h5"><b>16.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h4">Le Mie-Grill burger</span><br>Bun’s, oignons rouges, tomates, salade,
-          cheddar,
-          bacon, steack haché(200g)</p>
+        <p class="m-4"><span class="h4">Le Mie-Grill burger</span><br><span class="content">Bun’s, oignons rouges,
+            tomates, salade, cheddar, bacon, steack haché(200g).</span></p>
         <p class="text-align-center h5"><b>14.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h4">Côte de bœuf maturée et son assortiment de sauces</span><br>Origine
-          France/bretagne (environ 1kg à partager…ou pas !!!).</p>
+        <p class="m-4"><span class="h4">Côte de bœuf maturée et son assortiment de sauces</span><br><span
+            class="content">Origine France/bretagne (environ 1kg à partager…ou pas !!!).</span></p>
         <p class="text-align-center h5"><b>19.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
       </div>
@@ -251,61 +243,57 @@
 
   <!-- POISSON -->
   <div class="redbox text-center text-white">~ Poissons ~</div>
-
   <section id="fish">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
-        <p class="m-4"><span class="h5">Fish and chips et sa sauce tartare</span><br>(200g).</p>
+        <p class="m-4"><span class="h5">Fish and chips et sa sauce tartare</span><br><span
+            class="content">(200g).</span></p>
         <p class="text-align-center h5"><b>13.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-3"><span class="h5">Dorade de nos cotes entière au beurre d’algues</span><br>(300/400g).</p>
+        <p class="m-3"><span class="h5">Dorade de nos cotes entière au beurre d’algues</span><br><span
+            class="content">(300/400g).</span></p>
         <p class="text-align-center h5"><b>14.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2"><span class="h5">Pavé de saumon et son crumble de courgettes</span><br>Tomates confites
-          et
-          amandes, estragon accompagné de son riz sauvage.</p>
+        <p class="m-2"><span class="h5">Pavé de saumon et son crumble de courgettes</span><br><span
+            class="content">Tomates confites et amandes, estragon accompagné de son riz sauvage.</span></p>
         <p class="text-align-center h5"><b>13.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h5">Dos de lieu jaune</span><br>Accompagné d’un écrasé de pommes de terre
-          aux olives
-          et caponata.</p>
+        <p class="m-4"><span class="h5">Dos de lieu jaune</span><br><span class="content">Accompagné d’un écrasé de
+            pommes de terre aux olives et caponata.</span></p>
         <p class="text-align-center h5"><b>13.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h5">Aile de raie au beurre et aux câpres</span><br>Accompagnée de son riz
-          sauvage
-        </p>
+        <p class="m-4"><span class="h5">Aile de raie au beurre et aux câpres</span><br><span class="content">Accompagnée
+            de son riz sauvage</span></p>
         <p class="text-align-center h5"><b>14.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
       </div>
     </div>
   </section>
 
+
+
+
   <!-- DESSERTS -->
   <div class="redbox text-center text-white">~ Desserts ~</div>
-
   <section id="dessert">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
-        <p class="m-4"><span class="h5">Brownie</span><br>Gâteau au chocolat avec noix, crème glacée vanille,
-          sauce
+        <p class="m-4"><span class="h5">Brownie</span><br>Gâteau au chocolat avec noix, crème glacée vanille, sauce
           chocolat, crème anglaise.</p>
         <p class="text-align-center h5"><b>7.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
         <p class="m-3"><span class="h5">Caramélisée au sucre roux</span><br>(300/400g).</p>
         <p class="text-align-center h5"><b>6.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2"><span class="h5">Parsemée de copeaux de chocolat</span><br>Tomates confites et amandes,
-          estragon
+        <p class="m-2"><span class="h5">Parsemée de copeaux de chocolat</span><br>Tomates confites et amandes, estragon
           accompagné de son riz sauvage.</p>
         <p class="text-align-center h5"><b>7.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h5">Profiteroles 3 choux</span><br>Choux pâtissiers, crème glacée vanille,
-          sauce
+        <p class="m-4"><span class="h5">Profiteroles 3 choux</span><br>Choux pâtissiers, crème glacée vanille, sauce
           chocolat, crème fouettée, amandes grillées.</p>
         <p class="text-align-center h5"><b>8.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-4"><span class="h5">Tartelette citron meringuée</span><br>Pâte sablée, crème de citron,
-          meringue
+        <p class="m-4"><span class="h5">Tartelette citron meringuée</span><br>Pâte sablée, crème de citron, meringue
           italienne.</p>
         <p class="text-align-center h5"><b>7.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
@@ -315,7 +303,6 @@
 
   <!-- APERITIF -->
   <div class="redbox text-center text-white">~ Apéritif ~</div>
-
   <section id="aperitif">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
@@ -340,46 +327,30 @@
 
   <!-- VINS -->
   <div class="redbox text-center text-white">~ Vins ~</div>
-
   <section id="wine">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
         <p class="m-4 h5">ROUGES :</p>
-        <p class="m-2">BORDEAUX, HAUT MEDOC AOC<br><span>Château d’Arçins Cru Bourgeois.
-            Bouteille
-            75cl.</span></p>
+        <p class="m-2">BORDEAUX, HAUT MEDOC AOC<br><span>Château d’Arçins Cru Bourgeois. Bouteille 75cl.</span></p>
         <p class="text-align-center h5"><b>6.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">BOURGOGNE, PINOT NOIR AOC<br><span>Bouchard Ainé & Fils. Bouteille
-            75cl.</span></p>
+        <p class="m-2">BOURGOGNE, PINOT NOIR AOC<br><span>Bouchard Ainé & Fils. Bouteille 75cl.</span></p>
         <p class="text-align-center h5"><b>6.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">RHÔNE, CÔTES DU RHÔNE AOC<br>
-          <span">Red & Grill By Buffalo. Bouteille
-            75cl.</span>
-        </p>
+        <p class="m-2">RHÔNE, CÔTES DU RHÔNE AOC<br><span>Red & Grill By Buffalo. Bouteille 75cl.</span></p>
         <p class="text-align-center h5"><b>6.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">LANGUEDOC ROUSSILLON, PAYS D'OC IGP MERLOT<br>
-          <span">Verre 12cl.
-            (disponible
-            en carafe 25cl et 50cl).</span>
-        </p>
+        <p class="m-2">LANGUEDOC ROUSSILLON, PAYS D'OC IGP MERLOT<br><span>Verre 12cl. (disponible en carafe 25cl et
+            50cl).</span></p>
         <p class="text-align-center h5"><b>6.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
         <p class="m-4 h5">ROSÉS :</p>
-        <p class="m-2">PROVENCE, CÔTES DE PROVENCE AOC<br>
-          <span">Château Cavalier - Cuvée
-            Marafiance.
-            Bouteille 75cl.</span>
-        </p>
+        <p class="m-2">PROVENCE, CÔTES DE PROVENCE AOC<br><span>Château Cavalier - Cuvée Marafiance. Bouteille
+            75cl.</span></p>
         <p class="text-align-center h5"><b>6.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">LANGUEDOC ROUSSILLON, PAYS D’OC IGP MERLOT<br>
-          <span">Verre 12cl.
-            (disponible
-            en carafe 25cl et 50cl).</span>
-        </p>
+        <p class="m-2">LANGUEDOC ROUSSILLON, PAYS D’OC IGP MERLOT<br><span>Verre 12cl. (disponible en carafe 25cl et
+            50cl).</span></p>
         <p class="text-align-center h5"><b>7.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
       </div>
@@ -388,53 +359,34 @@
 
   <!-- SOFTS -->
   <div class="redbox text-center text-white">~ Softs ~</div>
-
   <section id="softs">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
         <p class="m-4">COCA-COLA<br><span>Normal ou Sans Sucres. 33cl.</span></p>
         <p class="text-align-center h5"><b>4.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">SPRITE<br>
-          <span">33cl.</span>
-        </p>
+        <p class="m-2">SPRITE<br><span>33cl.</span></p>
         <p class="text-align-center h5"><b>4.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">FUZE TEA<br>
-          <span">25cl.</span>
-        </p>
+        <p class="m-2">FUZE TEA<br><span>25cl.</span></p>
         <p class="text-align-center h5"><b>3.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">JUS ET NECTAR<br>
-          <span">Jus : orange, pomme. Nectar : ananas.
-            25cl.</span>
-        </p>
+        <p class="m-2">JUS ET NECTAR<br><span>Jus : orange, pomme. Nectar : ananas. 25cl.</span></p>
         <p class="text-align-center h5"><b>3.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">DIABOLO<br><span>Limonade, sirop de menthe, grenadine, fraise ou
-            citron.
-            22cl.</span></p>
+        <p class="m-2">DIABOLO<br><span>Limonade, sirop de menthe, grenadine, fraise ou citron. 22cl.</span></p>
         <p class="text-align-center h5"><b>4.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">SIROP A L'EAU<br>
-          <span">Eau de source, sirop de menthe, grenadine,
-            fraise ou
-            citron. 22cl.</span>
+        <p class="m-2">SIROP A L'EAU<br><span>Eau de source, sirop de menthe, grenadine, fraise ou citron. 22cl.</span>
         </p>
         <p class="text-align-center h5"><b>3.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">VITTEL BOUTEILLE 1L<br>
-          <span">Eau minérale naturelle plate.</span>
-        </p>
+        <p class="m-2">VITTEL BOUTEILLE 1L<br><span>Eau minérale naturelle plate.</span></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
         <p class="text-align-center h5"><b>6.50€</b></p>
-        <p class="m-2">S. PELLEGRINO BOUTEILLE 1L<br>
-          <span">Eau minérale naturelle
-            gazeuse.</span>
-        </p>
+        <p class="m-2">S. PELLEGRINO BOUTEILLE 1L<br><span>Eau minérale naturelle gazeuse.</span></p>
         <p class="text-align-center h5"><b>7.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-
       </div>
     </div>
   </section>
@@ -442,7 +394,6 @@
 
   <!-- BOISSONS CHAUDES -->
   <div class="redbox text-center text-white">~ Boissons chaudes ~</div>
-
   <section id="hotdrinks">
     <div class="container-fluid d-flex align-items-center justify-content-center">
       <div class="pres text-center">
@@ -452,30 +403,17 @@
         <p class="m-2">CHOCOLAT CHAUD</p>
         <p class="text-align-center h5"><b>3.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">MIE-GRILL COFFEE<br>
-          <span">25cl.</span>
-        </p>
+        <p class="m-2">MIE-GRILL COFFEE<br><span>25cl.</span></p>
         <p class="text-align-center h5"><b>3.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">THÉ ou INFUSION<br>
-          <span">Café ou thé et 1/2 brownie aux noix avec
-            crème
-            anglaise.</span>
-        </p>
+        <p class="m-2">THÉ ou INFUSION<br><span>Café ou thé et 1/2 brownie aux noix avec crème anglaise.</span></p>
         <p class="text-align-center h5"><b>3.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">CAFÉ VIENNOIS<br>
-          <span">Limonade, sirop de menthe, grenadine, fraise
-            ou
-            citron. 22cl.</span>
-        </p>
+        <p class="m-2">CAFÉ VIENNOIS<br><span>Limonade, sirop de menthe, grenadine, fraise ou citron. 22cl.</span></p>
         <p class="text-align-center h5"><b>5.00€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
-        <p class="m-2">CAFÉ, CRÈME FOUETTÉE.<br>
-          <span">Eau de source, sirop de menthe,
-            grenadine,
-            fraise ou citron. 22cl.</span>
-        </p>
+        <p class="m-2">CAFÉ, CRÈME FOUETTÉE.<br><span>Eau de source, sirop de menthe, grenadine, fraise ou citron.
+            22cl.</span></p>
         <p class="text-align-center h5"><b>5.50€</b></p>
         <p><img id="separate" src="assets/img/separateur-png-2.png" alt="separateur"></p>
 
@@ -487,7 +425,6 @@
   <footer>
     <section id="footer">
       <div class="redbox text-center text-white">~ Nous trouver ~</div>
-
       <div class="container-fluid d-flex align-items-center justify-content-around">
         <div class="pres text-center justify-content-around">
           <div class="m-4">
@@ -519,17 +456,18 @@
         </div>
       </div>
     </section>
+
+
     <section>
       <div id="copyrightlegalnotice" class="text-white d-flex justify-content-around align-items-center">
         <p class="mt-3">©Copyright 2020</p>
         <a class="legalnotice" href="mention.html" target="_blank">Mention légales</a>
       </div>
       <div id="devname" class="text-white d-flex justify-content-around">
-        <p>Site développé par : Tristan (Chef de projet) - Sulian - Quentin - Yves-marie</p>
+        <p class="content">Site développé par : Tristan (Chef de projet) - Sulian - Quentin - Yves-marie</p>
       </div>
     </section>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
