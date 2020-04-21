@@ -267,3 +267,7 @@ body {
   .content {
     font-family: 'Raleway', sans-serif;
   }
+
+  .nav-item a:hover {
+    background-color: #912323 ;
+  }
