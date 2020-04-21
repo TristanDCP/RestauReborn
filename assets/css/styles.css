@@ -9,7 +9,6 @@ body {
 .bg-crimson {
     background-color: #912323;
 }
-
 /* carousel */
 
 
@@ -219,15 +218,15 @@ body {
 {
     #devname 
     {
-        font-size: 0.55rem;
+        font-size: 0.58rem;
     }
  }
 
 @media screen and (max-width: 650px) 
 {
-    #devname 
+    .reponsive-phone-size
     {
-        font-size: 0.55rem;
+        font-size: 0.85rem;
     }
  }
 
